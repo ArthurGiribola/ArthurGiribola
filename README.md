@@ -93,7 +93,6 @@ Built entirely in vanilla JS, no framework — architecture-first approach to st
 `Python` · `sentence-transformers` · `Claude Haiku` · `FastAPI` · `Streamlit` · `scikit-learn` · `Supabase`
 
 [![View Project](https://img.shields.io/badge/View%20Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ArthurGiribola/ai-job-matcher)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ai-job-matcher-fwyk2y7xr5aedyhsckxjuw.streamlit.app)
 
 ---
 
