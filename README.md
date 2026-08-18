@@ -61,7 +61,23 @@ Advanced English. Open to internship or junior roles in AI, ML, or backend engin
 
 ---
 
-## Featured Project
+## Featured Projects
+
+### [Finanças Pessoais — Offline-First PWA](https://github.com/ArthurGiribola/financas-pwa)
+
+**Core idea:** full personal finance control running entirely in the browser — no backend, no account, no cloud.
+
+- IndexedDB persistence with service worker for full offline use
+- Credit card billing cycles, recurring transactions, and financial goals
+- CSV/JSON import-export and monthly reports with charts
+- Installable as a Progressive Web App
+
+`JavaScript (ES Modules)` · `IndexedDB` · `Service Worker`
+
+Built entirely in vanilla JS, no framework — architecture-first approach to state, persistence, and rendering.
+
+[![View Project](https://img.shields.io/badge/View%20Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ArthurGiribola/financas-pwa)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=white)](https://arthurgiribola.github.io/financas-pwa/)
 
 ### [AI Job Matcher](https://github.com/ArthurGiribola/ai-job-matcher)
 
