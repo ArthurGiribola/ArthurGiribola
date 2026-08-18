@@ -81,20 +81,19 @@ Built entirely in vanilla JS, no framework — architecture-first approach to st
 
 ### [AI Job Matcher](https://github.com/ArthurGiribola/ai-job-matcher)
 
-**Core idea:** match candidates to jobs based on meaning, not keywords.
+**Core idea:** match candidates to jobs by meaning, not keywords — and give real, actionable feedback along the way.
 
-A resume saying *"built REST APIs"* and a job requiring *"backend development experience"* describe the same thing, keyword matching misses it. This system doesn't.
+- **Semantic matching** — sentence-transformers (`all-MiniLM-L6-v2`) embeddings with cosine similarity between resume and full job context (title + description + skills); Jaccard keyword matching as fallback
+- **Resume analysis with Claude Haiku** — structured skill extraction with proficiency level, seniority detection, red flags
+- **Hiring probability** — Logistic Regression trained on semantic score, skill coverage, seniority gap, and experience
+- **Career tools** — AI-generated cover letters, resume rewriting, English translation for international applications
+- **Job search** — Adzuna API across 20+ countries, AI-enriched skill extraction per listing
+- Application history persisted via Supabase
 
-- Resume parsing and structured skill extraction
-- Compatibility scoring with skill gap detection
-- Jobs ranked by relevance via Jaccard similarity
-- REST API built with FastAPI
-
-`Python` · `FastAPI` · `scikit-learn` · `pandas`
-
-Built as a practical system, not just a model, focused on real-world application.
+`Python` · `sentence-transformers` · `Claude Haiku` · `FastAPI` · `Streamlit` · `scikit-learn` · `Supabase`
 
 [![View Project](https://img.shields.io/badge/View%20Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ArthurGiribola/ai-job-matcher)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ai-job-matcher-fwyk2y7xr5aedyhsckxjuw.streamlit.app)
 
 ---
 
